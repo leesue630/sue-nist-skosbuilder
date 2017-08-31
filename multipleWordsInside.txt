@@ -1,0 +1,27 @@
+BCCP Pairs which are similar but contains extra words in the middle
+
+NOT Unique pairs: Narrower has other broader term
+NOT Unique! UnitSalePriceAmount UnitAmount (SalePriceAmount)
+NOT Unique! MaximumLotSizeQuantity MaximumQuantity* (MaximumSizeQuantity)
+NOT Unique! EstimatedFreightChargeAmount EstimatedAmount (FreightChargeAmount)
+NOT Unique! ParentLineNumberIdentifier ParentIdentifier (LineNumberIdentifier)
+NOT Unique! ParentSerialNumberIdentifier ParentIdentifier (SerialNumberIdentifier)
+NOT Unique! ExtendedSalePriceAmount ExtendedAmount (SalePriceAmount)
+
+Unique pairs: Narrower has no other broader terms
+Unique! TotalLineItemQuantity TotalQuantity
+Unique! TotalCreditLimitAmount TotalAmount
+Unique! RecordSetTotalNumber RecordNumber
+Unique! ProcessBlockingMethodCode ProcessCode
+Unique! RecordSetCountNumber RecordNumber
+Unique! TaxBaseFunctionalAmount TaxAmount
+Unique! RecordSetStartNumber RecordNumber
+Unique! CitySubDivisionName CityName
+Unique! CountrySubDivisionCode CountryCode (there is Subdivision and SubDivision)
+Unique! TotalTaxableBaseAmount TotalAmount
+Unique! ReferenceOrderNumberIdentifier ReferenceIdentifier
+Unique! MinimumLotSizeQuantity MinimumQuantity
+Unique! ProxDayOfMonth ProxMonth //
+Unique! CountryOfOriginCode CountryCode //
+Unique! ApprovalRequiredByDateTime ApprovalDateTime//
+Unique! TotalPerTestMethodQuantity TotalQuantity //
